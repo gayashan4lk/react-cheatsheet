@@ -4,8 +4,8 @@ class Footer extends Component {
   render() { 
     return (
       <div className="Footer">
-        <h1>This is Footer</h1>
-        <h1>props : {this.props.data}</h1>
+        <p>This is Footer</p>
+        <p>props : {this.props.data}</p>
       </div>
     );
   }

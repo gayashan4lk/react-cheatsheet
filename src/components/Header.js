@@ -3,12 +3,12 @@ import React from 'react';
 function Header(props) {
   return (
     <div className="header">
-      <h1>This is Header</h1>
-      <h1>props : </h1>
-      <h4>firstName : {props.info.firstName}</h4>
-      <h4>lastName : {props.info.lastName}</h4>
-      <h4>age : {props.info.age}</h4>
-      <h4>homeTown : {props.info.homeTown}</h4>
+      <p>This is Header</p>
+      <p>props : </p>
+      <p>firstName : {props.info.firstName}</p>
+      <p>lastName : {props.info.lastName}</p>
+      <p>age : {props.info.age}</p>
+      <p>homeTown : {props.info.homeTown}</p>
       {console.log(props)}
     </div>
   );
