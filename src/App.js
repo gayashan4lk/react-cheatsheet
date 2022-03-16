@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './components/Button';
 import Clock from './components/Clock';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -14,9 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header info={info}/>
-      <p>Header is loaded above.</p>
       <Clock />
-      <p>Footer is loaded below.</p>
+      <Button />
       <Footer data="Here is some data"/>
     </div>
   );

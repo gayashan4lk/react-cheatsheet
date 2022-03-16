@@ -20,7 +20,7 @@ class Clock extends Component {
   }
 
   tick() {
-    console.log("tick() called.");
+    // console.log("tick() called.");
     this.setState({
       datetime : {time : new Date()}
     });
@@ -34,7 +34,7 @@ class Clock extends Component {
       <div>
         <h1>Hello World!</h1>
         <h2>It is {this.state.datetime.time.toLocaleTimeString()}</h2>
-        <h2>Data from State : {this.state.data} </h2>
+        <h5>Data from State : {this.state.data} </h5>
       </div>
     );
   }
